@@ -42,63 +42,28 @@ body{
 .name{
     color: var(--gray);
     text-align: center;
-    margin-top: -34px;
     font-size: 30px;
     letter-spacing: 2px;
     font-weight: 400;
     text-transform: uppercase;
 }
-.name span{
-	color: var(--blue);
-}
+
 .title{
-	width: 180px;
-    margin: 0 auto;
-    text-align: center;
-    padding: 7px;
-    border-bottom: 1px solid var(--gray);
-    border-top: 1px solid var(--gray);
     color: var(--gray);
-    margin-top: 11px;
+ 	text-align: center;
     text-transform: uppercase;
 }
 .info{
-	width: 180px;
-    margin: 0 auto;
     text-align: center;
-    padding: 7px;
-    border-bottom: 1px solid var(--gray);
-    border-top: 1px solid var(--gray);
     color: var(--gray);
-    margin-top: 11px;
-
 }
 
 .p1{
 	color: var(--gray);
-	width: 184px;
-	margin: 0 auto;
-	margin-top: 25px;
 	font-size: 15px;
-    line-height: 14px;
+	text-align: center;
 }
 
-.span1 img{
-	background: white;
-    width: 30px;
-    border-radius: 16px;
-    float: left;
-    margin-right: 10px;
-}
-
-
-.right-section{
-	padding: 40px 30px;
-    background: var(--white);
-    width: 68%;
-    float: left;
-    height: 1000px;
-}
 .headers{
 	color:#135574;
 	
@@ -175,74 +140,10 @@ li{
 	font-size:200%;
 }
 
-#main{
-	color:#202E32;
-	font-size:150%;
-}
-#extra{
-	color:#4E8FA4;
-	font-size:90%;
-}
-@media(min-width:468px){
-	.container-2{
-		display:flex;
-		/*
-		justify-content:flex-start; (bh default)
-		justify-content:flex-end;	(bh moves to end)
-		justify-content:center;	(bh moves to center)
-		justify-content:space-between;
-		*/
-		justify-content:space-around;
-		flex-basis:10%;
-	}	
-
-}
-.container-2 div{
-	background-color:silver;
-	border:2px solid navy;
-	padding:10px;
-}
-.container-2-box{
-	flex-basis:40%;
-	
-}
-
-
 
 .profile{
 	 text-align:center;
 }
-#left{
-	 text-align:left;
-}
-#one{
-	background-color:silver;
-	border:2px solid navy;
-	flex:1;
-	order:1;
-}
-#three{
-	background-color:silver;
-	border:2px solid navy;
-	flex:1;
-	order:3;
-}
-#two{
-	background-color:silver;
-	border:2px solid navy;
-	flex:1;
-	order:2;
-	
-}
-#center{
-	margin:0 auto;
-	width:10%
-}
-.marginright{
-	margin-left:45%px;
-}
-
-
 
 
 
